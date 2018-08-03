@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+  font-family: "Open Sans", serif;
+}
+
+.wrapper {
+  align-items: center;
+  background: linear-gradient(90deg, #89c8fc, #5590d4);
+  display: block;
+  justify-content: center;
+  overflow:auto;
+}
+
+.main {
+  background: linear-gradient(135deg, #444, #888);
+  border: #333 solid;
+  border-radius: 20px;
+  box-shadow: 20px 30px 40px -13px rgba(0,0,0,0.75);
+  display: block;
+  height: 90vh;
+  margin: 0 auto;
+  overflow:auto;
+  width: 80%;
+}
+.chart{
+  background-color: #fff;
+  border-radius: 15px 50px;
+}
+
+.clearfix{
+    clear: both;
+    content: "";
+  display: block;
+}
+
+.title-container {
+  align-items: center;
+  background-color: orange;
+  background-size: cover;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.title-container__title {
+  color: #eee;
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  letter-spacing: 2px;
+  line-height: 1.3;
+  text-shadow: 5px 5px #222;
+}
+
+.title-container__subtitle {
+  color: #eee;
+  font-family: "Merriweather", serif;
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  text-shadow: 3px 3px #111;
+}
+
+.form-container {
+  background: linear-gradient(45deg, #74a8db, rgb(23, 51, 87));
+  border-radius: 20px;
+  box-shadow: 20px 13px 40px -13px rgba(0,0,0,0.75);
+  padding-bottom: 20px;
+  padding-left: -10px;
+  padding-top: 100px;
+}
+
+input[type="text"] {
+  border: 1;
+  border-bottom: solid 3px #f16051;
+  border-color: #f16051;
+  border-radius: 5px;
+  color: #000000 !important;
+  font-size: 20px;
+  font-weight:  bold;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  padding-bottom: 4px;
+  width: 20%;
+}
+
+input[type="text"] {
+    border-radius: 5px;
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+    -webkit-text-fill-color: #fff !important;
+}
+
+button {
+  background-color: #f16051;
+  border: 0;
+  border-radius: 2px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: lighter;
+  font-weight: 100;
+  letter-spacing: 1px;
+  margin: 0 2px;
+  padding: 8px 20px;
+  text-shadow: 0 0 8px rgb(214, 166, 166);
+}
+
+button:active {
+  outline: none;
+}
+
+.weather__info {
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  width: 60%;
+}
+
+.weather__key {
+  border-bottom: solid 2px rgba(255,255,255,0.06);
+  color: #f16051;
+  font-weight: 400;
+  margin: 5px 40px;
+}
+
+.weather__key:last-child {
+  border: 0;
+}
+
+.weather__value {
+  color: #fff;
+  font-weight: 200;
+}
+
+.weather__error {
+  color: #f16051;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.weather__heading {
+  text-shadow: 3px 3px #333;
+}
